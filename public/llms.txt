@@ -1,62 +1,47 @@
-# Ariel Megidish Tv IL — Generative Engine Optimization Map
-
-> היי, אני אריאל מגידיש – יוצר האתר 🥳
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app
+https://example.com
 גלו את החוויה המקצועית של ue65au7100 smart 4k samsung עם אריאל מגידיש. תוכן דיגיטלי איכותי, סדרות וטלוויזיה - הצטרפו אלינו עוד היום!
 
 ### שירותים
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/services
+https://example.com/services
 שירותי lg c2 65 zap מקצועיים המותאמים לצרכים שלכם. יצירת תוכן, טלוויזיה וטיקטוק באיכות קולנועית עם fujicom 65 4k מתקדם.
 
 ### אודות
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/about
+https://example.com/about
 הכירו את אריאל מגידיש - יוצר תוכן מקצועי המתמחה ב-fujicom 65 4k ו-ue65au7100 smart 4k samsung. סיפור של תשוקה לטלוויזיה ויצירת תוכן איכותי.
 
 ### צור קשר
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם אריאל מגידיש לשירותי יוצר תוכן מקצועיים. קבלו ייעוץ חינם והצעת מחיר לפרויקט ue65au7100 smart 4k samsung שלכם עוד היום!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://ariel-megidish-tv-il-9056c7ae.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Ariel Megidish Tv IL
-היי, אני אריאל מגידיש – יוצר האתר 🥳
-
-## Services/Products
-- יוצר תוכן
-- טלוויזיה
-- טיקטוק
-
-## Target Audience
-אוהבי סדרות טלוויזיה
-
-## Industry
-תוכן דיגיטלי - סדרות וטלוויזיה
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://ariel-megidish-tv-il-9056c7ae.zappy5.app/sitemap.xml
-- **Robots.txt**: https://ariel-megidish-tv-il-9056c7ae.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
