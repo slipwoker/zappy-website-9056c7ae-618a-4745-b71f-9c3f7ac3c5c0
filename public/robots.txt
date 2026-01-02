@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ariel-megidish-tv-il-9056c7ae.zappy5.app/sitemap.xml

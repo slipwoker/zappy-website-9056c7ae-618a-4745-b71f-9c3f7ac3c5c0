@@ -1,0 +1,674 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="הכירו את אריאל מגידיש - יוצר תוכן מקצועי המתמחה ב-fujicom 65 4k ו-ue65au7100 smart 4k samsung. סיפור של תשוקה לטלוויזיה ויצירת תוכן איכותי.">
+<meta name="keywords" content="fujicom 65 4k, ue65au7100 smart 4k samsung, lg c2 65 zap, יוצר תוכן">
+<title>הסיפור שלנו - fujicom 65 4k ותשוקה לתוכן — Ariel Megidish Tv IL</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '9056c7ae-618a-4745-b71f-9c3f7ac3c5c0',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+
+    <style id="zappy-mobile-submenu-styles">
+      /* Mobile submenu accordion styles */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu {
+          position: static !important;
+          transform: none !important;
+          box-shadow: none !important;
+          background: transparent !important;
+          margin-top: 0 !important;
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+          visibility: hidden;
+          transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
+          padding: 0 !important;
+          border-radius: 0 !important;
+        }
+        .sub-menu.mobile-expanded {
+          max-height: 500px !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+          padding: 8px 0 8px 16px !important;
+        }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded, html[lang="ar"] .sub-menu.mobile-expanded {
+          padding: 8px 16px 8px 0 !important;
+        }
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu {
+          opacity: 0; visibility: hidden; pointer-events: none;
+        }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded {
+          opacity: 1 !important; visibility: visible !important; pointer-events: auto !important;
+        }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) {
+          display: flex !important; flex-wrap: wrap !important; align-items: center !important;
+        }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a {
+          flex: 1 !important;
+        }
+        .mobile-submenu-toggle {
+          display: flex !important; align-items: center !important; justify-content: center !important;
+          width: 44px !important; height: 44px !important; background: transparent !important;
+          border: none !important; cursor: pointer !important; padding: 0 !important; margin: 0 !important;
+          flex-shrink: 0 !important; -webkit-tap-highlight-color: transparent;
+        }
+        .mobile-submenu-toggle::after {
+          content: '' !important; display: block !important; width: 0 !important; height: 0 !important;
+          border-left: 6px solid transparent !important; border-right: 6px solid transparent !important;
+          border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important;
+        }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu {
+          flex-basis: 100% !important; width: 100% !important;
+        }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; font-size: 14px !important; }
+        .sub-menu a:hover { background-color: transparent !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+<nav class="navbar" id="navbar">
+<div class="container nav-container">
+<div class="nav-brand">
+<a href="/" class="logo-link">
+<img src="/assets/ariel-megidish-tv-il-logo.webp" alt="Ariel Megidish Tv IL" class="logo" />
+</a>
+</div>
+<button class="mobile-toggle" id="mobileToggle" aria-label="פתח תפריט">
+<svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+<svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+<path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+</button>
+<button class="phone-header-btn" aria-label="התקשר אלינו">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+</svg>
+</button>
+<ul class="nav-menu" id="navMenu">
+<li><a href="/services">שירותים</a></li>
+<li><a href="/about">אודות</a></li>
+</ul>
+<div class="nav-cta-container">
+<li class="nav-cta-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li>
+</div>
+</div>
+</nav>
+
+<section class="page-header">
+<div class="container">
+<h1>הסיפור שלי - מתשוקה לטלוויזיה ליצירת תוכן מקצועי</h1>
+<h3>הכירו את אריאל מגידיש ואת המסע שהפך אותי ליוצר תוכן מוביל בתחום</h3>
+</div>
+</section>
+
+<section class="about-story">
+<div class="container">
+<div class="story-content">
+<div class="story-text">
+<h2>היי, אני אריאל מגידיש – יוצר האתר</h2>
+<p>הסיפור שלי מתחיל מאהבה עמוקה לסדרות טלוויזיה ותוכן דיגיטלי איכותי. כשהייתי צעיר, הייתי מבלה שעות בצפייה בסדרות, מנתח כל פריים, כל זווית צילום וכל בחירה עריכתית. ידעתי שזה מה שאני רוצה לעשות - ליצור תוכן שמשאיר רושם, שגורם לאנשים להרגיש משהו אמיתי. המסע שלי בתחום ה-ue65au7100 smart 4k samsung התחיל כתחביב והפך לתשוקה שמניעה אותי כל יום.</p>
+<p>עם השנים, השקעתי אינספור שעות בלימוד טכניקות צילום, עריכה וגרייד צבע. התמחיתי בציוד מתקדם כמו lg c2 65 zap ו-fujicom 65 4k, והבנתי איך להפיק את המיטב מכל פיקסל. אבל מעבר לטכנולוגיה, הבנתי משהו חשוב יותר - תוכן טוב מתחיל מסיפור טוב. כיוצר תוכן, אני לא רק מפעיל מצלמה, אני מספר סיפורים שמחברים, משעשעים ומעוררים השראה.</p>
+</div>
+<div class="story-image">
+<img data-placeholder="hero-1" data-context="Portrait of professional content creator Ariel Megidish in modern studio with cameras and lighting equipment, confident and creative atmosphere" src="/assets/ariel-megidish-tv-il-hero-hero-1.webp" alt="אריאל מגידיש יוצר תוכן מקצועי באולפן מודרני" class="about-img">
+</div>
+</div>
+</div>
+</section>
+
+<section class="mission-vision">
+<div class="container">
+<div class="mission-grid">
+<div class="mission-card">
+<i class="fas fa-bullseye"></i>
+<h2>המשימה שלנו</h2>
+<p>המשימה שלי היא פשוטה אבל משמעותית - להביא לכל לקוח תוכן דיגיטלי באיכות קולנועית שמשנה את המשחק. אני מאמין שכל עסק, כל מותג וכל יוצר ראוי לתוכן שנראה ונשמע מקצועי. עם ue65au7100 smart 4k samsung ו-lg c2 65 zap, אני מבטיח שכל פרויקט יקבל את תשומת הלב המלאה שלי ואת הכלים הטובים ביותר בשוק.</p>
+</div>
+<div class="mission-card">
+<i class="fas fa-eye"></i>
+<h2>החזון שלנו</h2>
+<p>החזון שלי הוא להפוך את Ariel Megidish TV IL למובילה בתחום יצירת התוכן הדיגיטלי בישראל. אני רוצה שכל אוהבי סדרות טלוויזיה יכירו את השם שלי כסימן לאיכות, יצירתיות ומקצועיות. עם fujicom 65 4k והתמחות בטכנולוגיות המתקדמות ביותר, אני שואף ליצור תוכן שלא רק עומד בסטנדרטים הגבוהים ביותר, אלא מגדיר אותם מחדש.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="values-section">
+<div class="container">
+<h2>הערכים שמנחים אותי</h2>
+<div class="values-grid">
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-medal"></i>
+</div>
+<h3>איכות ללא פשרות</h3>
+<p>אני לא מתפשר על איכות. כל פרויקט עובר בדיקת איכות קפדנית ומיוצר בסטנדרטים הגבוהים ביותר עם ציוד מתקדם כמו ue65au7100 smart 4k samsung.</p>
+</div>
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-lightbulb"></i>
+</div>
+<h3>יצירתיות ללא גבולות</h3>
+<p>כל פרויקט הוא הזדמנות לחדש, לנסות דברים חדשים וליצור משהו ייחודי. אני מאמין שיצירתיות היא המפתח לתוכן שבולט מהקהל.</p>
+</div>
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-handshake"></i>
+</div>
+<h3>שותפות אמיתית</h3>
+<p>אני רואה בכל לקוח שותף למסע. אני מקשיב, מבין ועובד ביחד איתכם כדי להגיע לתוצאה המושלמת. ההצלחה שלכם היא ההצלחה שלי.</p>
+</div>
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-rocket"></i>
+</div>
+<h3>חדשנות טכנולוגית</h3>
+<p>אני תמיד מעודכן בטכנולוגיות האחרונות כמו lg c2 65 zap ו-fujicom 65 4k. זה מאפשר לי להציע פתרונות מתקדמים שמביאים תוצאות מרשימות.</p>
+</div>
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-heart"></i>
+</div>
+<h3>תשוקה לתוכן</h3>
+<p>התשוקה שלי לתוכן דיגיטלי וטלוויזיה היא לא רק עבודה - זו אהבה אמיתית. אני מביא את האנרגיה הזו לכל פרויקט.</p>
+</div>
+<div class="value-item">
+<div class="value-icon">
+<i class="fas fa-clock"></i>
+</div>
+<h3>עמידה בזמנים</h3>
+<p>אני מבין שזמן הוא כסף. לכן אני מתחייב לעמוד בלוחות הזמנים המוסכמים מבלי להתפשר על האיכות.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="expertise-section">
+<div class="container">
+<h2>התמחויות וכישורים</h2>
+<div class="expertise-content">
+<div class="expertise-list">
+<div class="expertise-category">
+<h3>ציוד וטכנולוגיה</h3>
+<ul>
+<li><i class="fas fa-check"></i> מצלמות 4K מקצועיות ועדשות קולנועיות</li>
+<li><i class="fas fa-check"></i> מערכות תאורה דרמטיות ומתקדמות</li>
+<li><i class="fas fa-check"></i> ציוד אודיו מקצועי למיקרופונים</li>
+<li><i class="fas fa-check"></i> מערכות עריכה מתקדמות (DaVinci Resolve, Premiere Pro)</li>
+<li><i class="fas fa-check"></i> ue65au7100 smart 4k samsung, lg c2 65 zap ו-fujicom 65 4k</li>
+</ul>
+</div>
+<div class="expertise-category">
+<h3>כישורים מקצועיים</h3>
+<ul>
+<li><i class="fas fa-check"></i> צילום קולנועי ותאורה דרמטית</li>
+<li><i class="fas fa-check"></i> עריכה מתקדמת וגרייד צבע</li>
+<li><i class="fas fa-check"></i> כתיבת תסריטים ופיתוח קונספטים</li>
+<li><i class="fas fa-check"></i> בימוי ועבודה עם שחקנים</li>
+<li><i class="fas fa-check"></i> עיצוב סאונד ומיקס אודיו</li>
+</ul>
+</div>
+<div class="expertise-category">
+<h3>פלטפורמות ומדיה</h3>
+<ul>
+<li><i class="fas fa-check"></i> סדרות טלוויזיה והפקות ארוכות</li>
+<li><i class="fas fa-check"></i> תוכן דיגיטלי לרשתות חברתיות</li>
+<li><i class="fas fa-check"></i> סרטוני טיקטוק ויראליים</li>
+<li><i class="fas fa-check"></i> תוכן פרסומי ומסחרי</li>
+<li><i class="fas fa-check"></i> תוכן יוטיוב ווידאו מרקטינג</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section>
+
+<section class="achievements-section">
+<div class="container">
+<h2>הישגים ונתונים</h2>
+<div class="stats-grid">
+<div class="stat-card">
+<div class="stat-number">200+</div>
+<div class="stat-label">פרויקטים שהופקו</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">50+</div>
+<div class="stat-label">לקוחות מרוצים</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">5M+</div>
+<div class="stat-label">צפיות בתוכן שיצרתי</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">100%</div>
+<div class="stat-label">מחויבות לאיכות</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="approach-section">
+<div class="container">
+<h2>הגישה המקצועית שלי</h2>
+<div class="approach-content">
+<p>הגישה שלי ליצירת תוכן מתחילה בהקשבה. אני מאמין שכל פרויקט מוצלח מתחיל בהבנה מעמיקה של הלקוח, המטרות שלו והקהל שלו. אני לא רק מפעיל מצלמה - אני שותף אסטרטגי שעובד איתכם כדי להבין מה באמת יעבוד עבור המותג שלכם. עם ניסיון רב בתחום ה-ue65au7100 smart 4k samsung ו-lg c2 65 zap, אני יודע איך להפוך רעיונות למציאות מרשימה.</p>
+<p>התהליך שלי משלב תכנון קפדני עם גמישות יצירתית. אני מתכנן כל פרט - מהתסריט ועד לתאורה - אבל גם נשאר פתוח להזדמנויות ספונטניות שיכולות ליצור קסם. כיוצר תוכן, אני מבין שהתוצאה הטובה ביותר לפעמים מגיעה מהרגעים הלא מתוכננים. עם fujicom 65 4k והכלים המתקדמים ביותר, אני מוכן לכל אתגר ומבטיח תוצאה שתעלה על הציפיות.</p>
+<p>אני גם מאמין בשקיפות מלאה ותקשורת פתוחה. לאורך כל הפרויקט, אני מעדכן אתכם, מקבל פידבק ומוודא שאתם מרוצים מכל שלב. המטרה שלי היא לא רק לספק תוכן איכותי, אלא ליצור חוויה נעימה ומקצועית שתגרום לכם לרצות לעבוד איתי שוב ושוב. כי בסופו של דבר, ההצלחה שלי נמדדת בהצלחה שלכם.</p>
+</div>
+</div>
+</section>
+
+<section class="cta-section">
+<div class="container">
+<div class="cta-content">
+<h2>בואו ניצור משהו מדהים ביחד</h2>
+<p>אם אתם מחפשים יוצר תוכן שמשלב תשוקה, מקצועיות וטכנולוגיה מתקדמת - הגעתם למקום הנכון. בואו נדבר על הפרויקט שלכם.</p>
+<a href="/contact" class="btn-primary">צור קשר עכשיו</a>
+</div>
+</div>
+</section>
+
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2026 Ariel Megidish Tv IL. כל הזכויות שמורות.</p>
+          </div>
+          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<a href="https://tiktok.com/@[tiktok_handle]" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+<a href="https://youtube.com/@[youtube_handle]" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a></div>
+          <div class="footer-legal">
+            <a href="/privacy" aria-label="מדיניות פרטיות">
+              מדיניות פרטיות
+            </a>
+            <span class="separator">|</span>
+            <a href="/accessibility" aria-label="נגישות">
+              נגישות
+            </a>
+            <span class="separator">|</span>
+            <a href="/terms" aria-label="תנאי שימוש">
+              תנאי שימוש
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>נוצר באמצעות&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '9056c7ae-618a-4745-b71f-9c3f7ac3c5c0';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+    })();
+    </script>
+    <script src="/script.js"></script>
+</body></html>
